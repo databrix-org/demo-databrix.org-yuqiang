@@ -4,7 +4,8 @@
 ## Requirement:
 1. VS Code
 2. Git GUI
-3. pipenv (python package)
+3. Anaconda prompt
+
 
 ## Step 1: Clone this repository
 1. Open your VS Code and select **Source Control** in the left sidebar
@@ -21,24 +22,28 @@
 
 ## Step 2: Install packages
 
-1. Open your Python Terminal
+1. Open your Anaconda prompt
 
-2. Open the directory of Repo in the Terminal, where you just stored scripts in it.
+2. Open the directory of Repo in the Anaconda prompt, where you just stored scripts in it. Using `cd C:\user\repo`
 
-3. Create a virtual environment using pipenv. Run code: `pipenv install`
+3. create new conda environment. Run code `conda create -n databirx`
 
-4. Activate the virtual environment. Run code: `pipenv shell`
+4. Activate the new environment named databrix. Run code `conda activate databrix`
 
-5. Install required packages in this virtual environment. Run code: `pipenv install requirements.txt`
+5. Install required packages in this virtual environment. Run code: `conda install requirements.txt`
 
 ## Step 3: Run the frontend and backend Server
 
-1. Open your Python Terminal and open the directory of Repo in your Terminal
+1. Open your Anaconda prompt. Then open the directory of Repo in your Anaconda prompt. Using `cd C:\user\repo`
 
-2. Run the backend Server. Run code: `uvicorn backend_main:app --reload`
+2. activate the new environment named databrix. Run code `conda activate databrix`
 
-3. Do not close this Python Terminal and Open another python Terminal
+3. Run the backend Server. Run code: `uvicorn backend_main:app --reload`
 
-4. Open the directory of Repo in second Terminal.
+3. Do not close this Anaconda prompt and Open another Anaconda prompt
+
+4. Open the directory of Repo in second Anaconda prompt. Using `cd C:\user\repo`
+
+5. Activate the new environment named databrix. Run code `conda activate databrix`
 
 5. Run the frontend Server. Run code: `streamlit run Homepage.py`
