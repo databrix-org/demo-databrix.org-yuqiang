@@ -24,7 +24,7 @@
 
 1. Open your Anaconda prompt
 
-2. Open the directory of Repo in the Anaconda prompt, where you just stored scripts in it. Using `cd C:\user\repo`
+2. Open the directory of Repo in the Anaconda prompt, where you just stored scripts in it. Using `cd C:\path\to\repo`
 
 3. create new conda environment. Run code `conda create -n databirx`
 
@@ -34,7 +34,7 @@
 
 ## Step 3: Run the frontend and backend Server
 
-1. Open your Anaconda prompt. Then open the directory of Repo in your Anaconda prompt. Using `cd C:\user\repo`
+1. Open your Anaconda prompt. Then open the directory of Repo in your Anaconda prompt. Using `cd C:\path\to\repo`
 
 2. activate the new environment named databrix. Run code `conda activate databrix`
 
@@ -42,7 +42,7 @@
 
 3. Do not close this Anaconda prompt and Open another Anaconda prompt
 
-4. Open the directory of Repo in second Anaconda prompt. Using `cd C:\user\repo`
+4. Open the directory of Repo in second Anaconda prompt. Using `cd C:\path\to\repo`
 
 5. Activate the new environment named databrix. Run code `conda activate databrix`
 
