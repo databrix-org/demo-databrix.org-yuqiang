@@ -16,9 +16,9 @@
 
 4. Select **Clone from Github** in the search box
 
-5. Paste URL into the search box and Select the Repo
+5. Paste URL into the search box and Select the Repo showed.
 
-6. Clone it into a directory, where you want to store these scripts
+9. Clone it into a directory, where you want to store these scripts
 
 ## Step 2: Install packages
 
