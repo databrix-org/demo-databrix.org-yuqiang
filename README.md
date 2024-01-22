@@ -18,7 +18,7 @@
 
 5. Paste URL into the search box and Select the Repo showed.
 
-9. Clone it into a directory, where you want to store these scripts
+9. Create a directory. And clone it into this directory, where you want to store these scripts
 
 ## Step 2: Install packages
 
