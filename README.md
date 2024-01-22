@@ -30,7 +30,7 @@
 
 4. Activate the new environment named databrix. Run code `conda activate databrix`
 
-5. Install required packages in this virtual environment. Run code: `conda install requirements.txt`
+5. Install required packages in this environment. Run code: `pip install -r requirements.txt`
 
 ## Step 3: Run the frontend and backend Server
 
