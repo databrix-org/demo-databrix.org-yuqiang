@@ -3,7 +3,7 @@
 
 ## Requirement:
 1. VS Code
-2. Git GUI
+2. GitHub Desktop
 3. Anaconda prompt
 
 
