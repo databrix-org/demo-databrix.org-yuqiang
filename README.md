@@ -14,7 +14,7 @@
 
 3. Click the **...** on the top of Menu (Views and More actions) --> Select **Clone**
 
-4. Select **Clone from Github** 
+4. Select **Clone from Github** in the search box
 
 5. Paste URL into the search box and Select the Repo
 
