@@ -11,6 +11,10 @@ Open your VS Code and select **Source Control** in the left sidebar
 
 Copy this URL `https://github.com/databrix-org/demo-databrix.org-yuqiang`
 
-Click Views and More actions --> Clone
+Click the **...** on the top of Menu (Views and More actions) --> Select **Clone**
 
-Paste URL into the search box --> Select Clone from Github
+Select **Clone from Github** 
+
+Paste URL into the search box and Select the Repo
+
+Clone it into a Directory, where you want to store these scripts
