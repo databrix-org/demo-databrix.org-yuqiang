@@ -4,5 +4,6 @@ pydantic
 streamlit
 requests
 boto3
-MySQLdb
+mysqlclient
 uvicorn
+python-multipart
