@@ -25,7 +25,7 @@
 
 2. Open the directory of Repo in the Terminal, where you just stored scripts in it
 
-3. Create a virtual environment using pipenv. Run code: 'pipenv install'
+3. Create a virtual environment using pipenv. Run code: `pipenv install`
 
-4. Install required packages in this virtual environment. Run code: 'pipenv install requirements.txt'
+4. Install required packages in this virtual environment. Run code: `pipenv install requirements.txt`
 
