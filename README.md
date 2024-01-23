@@ -1,7 +1,7 @@
 *A simple demo of databrix.org, which contents project description and database*
 # Deploy on your local machine
 
-## Requirement:
+## Requirements:
 1. VS Code
 2. GitHub Desktop
 3. Anaconda prompt
