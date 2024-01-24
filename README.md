@@ -46,4 +46,6 @@
 
 5. Activate the new environment named databrix. Run code `conda activate databrix`
 
-5. Run the frontend Server. Run code: `streamlit run Homepage.py`
+6. Run the frontend Server. Run code: `streamlit run Homepage.py`
+
+7. 

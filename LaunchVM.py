@@ -39,21 +39,26 @@ def search_publicip():
     
     # Retrieve the details of the VM
     response = ec2.describe_instances(InstanceIds=[instance_id])
+
+    # Retrieve the details of the VM
     try:
-    
-        # Search IP Adresse 
+        response = ec2.describe_instances(InstanceIds=[instance_id])
+        
+        # Search IP Address 
         public_ip_address = response['Reservations'][0]['Instances'][0]['NetworkInterfaces'][0]['Association']['PublicIp']
         
-        #print(public_ip_address)
+        # Format URL
+        url = f'http://{public_ip_address}'
         
-        # Open the IP directly
-        webbrowser.open(public_ip_address)
+        # Open the URL in the default browser
+        if not webbrowser.open(url):
+            raise Exception("Web browser could not be opened.")
         
-    except:
-        print('error at starting')
- 
-    return 0
+    except Exception as e:
+        print(f'Error: {e}')
+        return -1
 
+    return 0
 
 # Stop VM after using
 def stop_tljh():
