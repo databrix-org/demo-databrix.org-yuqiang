@@ -25,7 +25,7 @@
 
 ## Step 2: Install packages
 
-1. Open the TERMINAL in VS Code
+1. Open a TERMINAL in VS Code
 
 2. Open the directory of Repo in the Terminal. Normally you are already in this directory after cloning.
 
