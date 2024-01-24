@@ -21,7 +21,7 @@
 
 5. Paste URL into the search box and Select the Repo showed.
 
-9. Create a directory. And clone it into this directory, where you want to store these scripts
+6. Create a directory. And clone it into this directory, where you want to store these scripts
 
 ## Step 2: Install packages
 
@@ -31,7 +31,7 @@
 
 3. create new virtual environment and download packages using pipenv. Run code `pip install pipenv`
 
-4.Install pipenv in virtual environment and install required packages. Run code 'pip install pipenv' and `pipenv install`
+4.Install pipenv in virtual environment and install required packages. Run code `pip install pipenv` and `pipenv install`
 
 ## Step 3: Run the frontend and backend Server
 
