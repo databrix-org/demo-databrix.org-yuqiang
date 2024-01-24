@@ -8,3 +8,4 @@ mysqlclient
 uvicorn
 python-multipart
 numpy
+colorama
