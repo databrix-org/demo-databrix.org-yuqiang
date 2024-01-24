@@ -39,14 +39,12 @@
 
 ## Step 3: Run the frontend and backend Server
 
-1. Activate the new environment. Run code `pipenv shell`
+1. Run the backend Server. Run code: `uvicorn backend_main:app --reload`
 
-2. Run the backend Server. Run code: `uvicorn backend_main:app --reload`
+2. Do not close this Terminal and Open another Terminal.
 
-3. Do not close this Terminal and Open another Terminal.
+3. Open the directory of Repo in second Terminal. Using `cd C:\path\to\repo`
 
-4. Open the directory of Repo in second Terminal. Using `cd C:\path\to\repo`
+4. Activate the virtual environment you have created in step 2. Run code `python -m pipenv shell`
 
-5. Activate the virtual environment you have created in strp 2. Run code `pipenv shell`
-
-6. Run the frontend Server. Run code: `streamlit run Homepage.py`
+5. Run the frontend Server. Run code: `streamlit run Homepage.py`
