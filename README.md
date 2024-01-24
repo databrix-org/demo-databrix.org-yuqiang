@@ -37,6 +37,8 @@
 
 6. Install all packages needed. Run code `pipenv install`
 
+7. If you use Windows, please install colorama. Run code `pipenv install colorama`
+
 ## Step 3: Run the frontend and backend Server
 
 1. Run the backend Server. Run code: `uvicorn backend_main:app --reload`
