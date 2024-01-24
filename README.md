@@ -4,7 +4,7 @@
 ## Requirements:
 1. VS Code
 2. GitHub Desktop
-3. Anaconda prompt
+3. Anaconda prompt (pythob Version 3.12.1)
 
 
 ## Step 1: Clone this repository
