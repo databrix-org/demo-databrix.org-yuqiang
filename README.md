@@ -29,9 +29,13 @@
 
 2. Open the directory of Repo in the Terminal. Normally you are already in this directory after cloning.
 
-3. create new virtual environment and download packages using pipenv. Run code `pip install pipenv`
+3. Install pipenv. Run code `pip install pipenv`
 
-4. Install pipenv in virtual environment and install required packages. Run code `pip install pipenv` and `pipenv install`
+4. Create new virtual environment and specify python version. Run code `python -m pipenv --python 3.12.1`
+
+5. Activate this virtual environment and install pipenv in this environment. Run code `python -m pipenv shell` and `pip install pipenv`
+
+6. Install all packages needed. Run code `pipenv install`
 
 ## Step 3: Run the frontend and backend Server
 
