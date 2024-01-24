@@ -2,7 +2,7 @@
 # Deploy on your local machine
 
 > [!CAUTION]
-> Please don´t upload any Credential in GitHub. This may cause unauthorized access and excessive charges!
+> **Please don´t upload any Credential in GitHub. This may cause unauthorized access and excessive charges!**
 
 ## Requirements:
 1. VS Code
