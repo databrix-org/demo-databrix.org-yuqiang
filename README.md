@@ -31,7 +31,7 @@
 
 3. create new virtual environment and download packages using pipenv. Run code `pip install pipenv`
 
-4.Install pipenv in virtual environment and install required packages. Run code `pip install pipenv` and `pipenv install`
+4. Install pipenv in virtual environment and install required packages. Run code `pip install pipenv` and `pipenv install`
 
 ## Step 3: Run the frontend and backend Server
 
